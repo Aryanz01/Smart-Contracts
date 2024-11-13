@@ -1,0 +1,117 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "key",
+						"type": "uint8"
+					}
+				],
+				"name": "getone",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "key",
+						"type": "uint8"
+					},
+					{
+						"internalType": "string",
+						"name": "namee",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "agee",
+						"type": "uint8"
+					}
+				],
+				"name": "one",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"name": "students",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "age",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/arrtest.sol": "sampstruct"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/arrtest.sol": {
+			"keccak256": "0xadec7fa31d2c53b950b819d2526db277553fa0340239232b176382cc779dba2f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c0d920839a0d382ac6c9e8efbf34e4d8aeb53d80ff0399b98e0ac97d816f9b91",
+				"dweb:/ipfs/QmYxWXg9r147g6rAr1D75JxaRgVRN2FrYgspGk2j4nnQ24"
+			]
+		}
+	},
+	"version": 1
+}
